@@ -151,13 +151,14 @@ AI 기반 대형폐기물 분류를 비롯해 분리배출 신고, 무료나눔,
 ---
 # 6. 클래스 구조 
 
-<img width="1917" height="797" alt="image" src="https://github.com/user-attachments/assets/1ecfa40e-8c5a-4272-991e-762cbf8920d9" />
+<img width="1917" height="797" alt="image" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/MemberVO.png?raw=true" />
 
 * 이 다이어그램은 **분리배출 게시판 및 관리자페이지의 클래스 다이어그램**으로, 도메인 객체(VO/DTO), 서비스, 컨트롤러, 매퍼 간의 관계를 나타냅니다.
 * 사용자, 이미지, 안내 정보, 배출 내역과 관련된 클래스들이 상호 연계되어 CRUD 기능과 비즈니스 로직을 수행하는 구조를 시각화했습니다.
 * 전체 시스템의 계층 구조와 객체 간 의존 관계를 한눈에 보여줍니다.
 
-<img width="740" height="599" alt="{9F28DA0A-40B0-4F99-AFA2-BD9EA08C7A90}" src="https://github.com/user-attachments/assets/d34d841e-6b34-438d-bbe2-94b4753da96a" />
+<img width="500" height="500" alt="{9F28DA0A-40B0-4F99-AFA2-BD9EA08C7A90}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%EA%B7%B8%EB%A6%BC1.png?raw=true" />
+<img width="500" height="500" alt="{9F28DA0A-40B0-4F99-AFA2-BD9EA08C7A90}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%EA%B7%B8%EB%A6%BC2.png?raw=true" />
 
 * 이 **유스케이스 다이어그램**은 분리배출 게시판 및 관리자페이지에서 일반 사용자, 관리자별 권한을 나타냅니다.
 * 누구나 분리배출 서비스 이용이 가능하고, 관리자는 관리자페이지 진입, 내역 확인, 회원 권한 수정 기능까지 수행할 수 있습니다.
