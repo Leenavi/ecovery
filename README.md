@@ -104,7 +104,7 @@ AI 기반 대형폐기물 분류를 비롯해 분리배출 신고, 무료나눔,
 ---
 # 4. 요구사항 정의 
 
-<img width="1400" height="250" alt="{91485312-7DB7-4E4C-9A1A-BE761E7736A9}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%7B15931620-A09A-4AD9-8208-EDBD142C824E%7D.png?raw=true" />
+<img width="1400" height="250" alt="{91485312-7DB7-4E4C-9A1A-BE761E7736A9}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%7B423950BF-E6D3-4B52-AFA7-81B11A490E38%7D.png?raw=true" />
 
 * 이 문서는 분리배출 게시판, 관리자페이지에 대한 **요구사항 정의서**로, 시스템이 제공해야 하는 주요 기능과 조건을 정리한 표입니다.
 * 이미지 등록, AI 예측 결과와 지역 정보 기반 결과 도출, 효율적 관리 서비스 등 핵심 기능들을 요구 ID, 기능 ID, 설명 형태로 명확히 정의하여 개발 범위와 목표를 한눈에 확인할 수 있습니다.
