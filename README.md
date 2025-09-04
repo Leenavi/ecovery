@@ -1,4 +1,4 @@
-<img width="331" height="151" alt="image" src="https://github.com/user-attachments/assets/fa21017d-7381-4217-8e1c-b67d8e02dd69" /><img width="331" height="151" alt="image" src="https://github.com/user-attachments/assets/6e45db3f-82e0-41e6-b5f0-c0b2c673e925" /># 🌍 ECOVERY – AI 사물인식 기반 대형폐기물 분리배출 & 재활용 플랫폼
+# 🌍 ECOVERY – AI 사물인식 기반 대형폐기물 분리배출 & 재활용 플랫폼
 ---
 
 (25.07.07 ~ 25.08.08 - 약 5주)  
