@@ -174,7 +174,7 @@ AI 기반 대형폐기물 분류를 비롯해 분리배출 신고, 무료나눔,
 
 --- 
 <h3><분리배출 메인페이지></h3>
-<img width="1227" height="893" alt="{6C3E4669-FB6F-40FB-9B22-4054EBD33E91}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%EA%B7%B8%EB%A6%BC3.png?raw=true" />
+<img width="1000" height="893" alt="{6C3E4669-FB6F-40FB-9B22-4054EBD33E91}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%EA%B7%B8%EB%A6%BC3.png?raw=true" />
 
 🔎 사용하지 않는 물건을 등록하고, 이웃과 나눔을 실천할 수 있는 **무료나눔 커뮤니티 화면**입니다.
 * **검색 및 필터 기능**을 통해 원하는 지역이나 물품을 빠르게 찾을 수 있습니다. 
@@ -183,7 +183,7 @@ AI 기반 대형폐기물 분류를 비롯해 분리배출 신고, 무료나눔,
 
 ---
 <h3><분리배출 AI 예측 결과 및 사용자 2차 선택창></h3>
-<img width="600" height="600" alt="{B0B46550-D64E-49E3-873F-63E061705051}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%EA%B7%B8%EB%A6%BC4.png?raw=true" />
+<img width="500" height="500" alt="{B0B46550-D64E-49E3-873F-63E061705051}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%EA%B7%B8%EB%A6%BC4.png?raw=true" />
 
 🔎 사용자가 원하는 물품을 **키워드와 조건**으로 빠르게 찾을 수 있는 검색 화면입니다.
 * **검색 기준(제목/내용/지역/전체)** 을 선택해 원하는 방식으로 조회할 수 있습니다.
@@ -192,7 +192,7 @@ AI 기반 대형폐기물 분류를 비롯해 분리배출 신고, 무료나눔,
 
 ---
 <h3><최종 선택 기반 결과 안내 페이지></h3>
-<img width="600" height="600" alt="{38E29525-8320-4E08-8267-2CEBD64FB62E}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%EA%B7%B8%EB%A6%BC5.png?raw=true" /> <span></span>
+<img width="500" height="500" alt="{38E29525-8320-4E08-8267-2CEBD64FB62E}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%EA%B7%B8%EB%A6%BC5.png?raw=true" /> <span></span>
 <img width="500" height="300" alt="{38E29525-8320-4E08-8267-2CEBD64FB62E}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%EA%B7%B8%EB%A6%BC6.png?raw=true" />
 
 🔎 로그인하지 않은 사용자도 접근 가능한 **상세 보기 화면**입니다.
@@ -210,9 +210,7 @@ AI 기반 대형폐기물 분류를 비롯해 분리배출 신고, 무료나눔,
 
 ---
 <h3><관리자페이지 메인 대시보드></h3>
-<img width="946" height="893" alt="{19213E0E-960C-4AA5-858D-1A16B7DAFC31}" src="https://github.com/user-attachments/assets/40f749c8-4e45-441b-a569-8dc47304e871" />
-<img width="917" height="727" alt="{CA95413D-7EF3-48DA-B401-2663E0829E3A}" src="https://github.com/user-attachments/assets/52dcb53b-385c-4faa-b11c-22c969126a54" />
-<img width="923" height="431" alt="{91928654-ADCD-4442-B48D-461B7568ECA0}" src="https://github.com/user-attachments/assets/2147794e-03e0-424c-92d0-3dcde77888f4" />
+<img width="1000" height="893" alt="{19213E0E-960C-4AA5-858D-1A16B7DAFC31}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%7B04A79198-5318-4455-BFDB-14B58EE8B411%7D.png?raw=true" />
   
 🔎 사용자가 나눔할 물품을 등록하는 화면입니다.
 * **제목, 카테고리, 상품 상태, 나눔 지역, 상세 설명** 등을 입력하여 게시글을 작성할 수 있습니다.
@@ -220,15 +218,10 @@ AI 기반 대형폐기물 분류를 비롯해 분리배출 신고, 무료나눔,
 * 미리보기 이미지는 등록 전 상태를 검토할 수 있도록 하여, **사용자 편의성과 정확성**을 높였습다.
 * 모든 입력이 완료되면 **등록 버튼**을 통해 커뮤니티에 게시글을 공유할 수 있습니다.
 
-<img width="1159" height="196" alt="{427A896F-4A62-411B-9F84-081AA7C23164}" src="https://github.com/user-attachments/assets/77ba1952-e1e5-4a90-a521-14bc6ba88c57" />
-
-* 사용자가 나눔글을 등록하면 **등록 확인 모달창**이 나타나, 작성한 내용을 다시 확인할 수 있습니다.
-* 등록이 성공적으로 완료되면, 화면에 **“등록이 완료되었습니다” 알림**이 표시됩니다.
-* 이를 통해 사용자는 **정상적으로 글이 등록되었는지 직관적으로 확인**할 수 있으며, 곧바로 목록 페이지로 이동해 결과를 확인할 수 있습니다.
-
 ---
 <h3><관리자페이지 내 분리배출 내역 페이지></h3>
-<img width="1163" height="821" alt="{54998963-EE68-4A66-B7EE-77B730FBCC76}" src="https://github.com/user-attachments/assets/9c978e24-047e-43ac-a363-2e9e11522ea1" />
+<img width="600" height="400" alt="{54998963-EE68-4A66-B7EE-77B730FBCC76}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%7B3D0DC0AD-297E-4DD8-8357-37A327E496A0%7D.png?raw=true" /> <span></span>
+<img width="400" height="500" alt="{54998963-EE68-4A66-B7EE-77B730FBCC76}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%7BB2A8710C-0519-4914-B403-F4022FBEF735%7D.png?raw=true" />
 
 * 게시글 작성자 또는 관리자가 **수정 버튼**을 클릭하면, **“게시글을 수정하시겠습니까?” 모달창**이 표시됩니다.
 * 이를 통해 **실수 방지와 사용자 의도 확인**이 가능합니다.
