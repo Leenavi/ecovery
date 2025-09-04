@@ -104,7 +104,7 @@ AI 기반 대형폐기물 분류를 비롯해 분리배출 신고, 무료나눔,
 ---
 # 4. 요구사항 정의 
 
-<img width="1400" height="250" alt="{91485312-7DB7-4E4C-9A1A-BE761E7736A9}" src="https://github.com/user-attachments/assets/a77162a1-79b6-48c3-9e13-a59b4857a0e6" />
+<img width="1400" height="250" alt="{91485312-7DB7-4E4C-9A1A-BE761E7736A9}" src="https://raw.githubusercontent.com/main/src/main/resources/static/gitImages/%7B15931620-A09A-4AD9-8208-EDBD142C824E%7D.png" />
 
 * 이 문서는 분리배출 게시판, 관리자페이지에 대한 **요구사항 정의서**로, 시스템이 제공해야 하는 주요 기능과 조건을 정리한 표입니다.
 * 이미지 등록, AI 예측 결과와 지역 정보 기반 결과 도출, 효율적 관리 서비스 등 핵심 기능들을 요구 ID, 기능 ID, 설명 형태로 명확히 정의하여 개발 범위와 목표를 한눈에 확인할 수 있습니다.
@@ -173,7 +173,7 @@ AI 기반 대형폐기물 분류를 비롯해 분리배출 신고, 무료나눔,
 
 --- 
 <h3><분리배출 메인페이지></h3>
-<img width="1367" height="672" alt="{3673829D-A150-4D6A-A69D-CB9DD102EB7F}" src="https://github.com/user-attachments/assets/1283cb16-929d-44de-93b6-8ef31e5cd18b" />
+<img width="1367" height="672" alt="{3673829D-A150-4D6A-A69D-CB9DD102EB7F}" src="https://raw.githubusercontent.com/" />
 <img width="1227" height="893" alt="{6C3E4669-FB6F-40FB-9B22-4054EBD33E91}" src="https://github.com/user-attachments/assets/bebc16b8-b06b-4d8b-a1cf-3c8df6ffec12" />
 
 🔎 사용하지 않는 물건을 등록하고, 이웃과 나눔을 실천할 수 있는 **무료나눔 커뮤니티 화면**입니다.
