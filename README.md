@@ -157,7 +157,7 @@ AI 기반 대형폐기물 분류를 비롯해 분리배출 신고, 무료나눔,
 * 사용자, 이미지, 안내 정보, 배출 내역과 관련된 클래스들이 상호 연계되어 CRUD 기능과 비즈니스 로직을 수행하는 구조를 시각화했습니다.
 * 전체 시스템의 계층 구조와 객체 간 의존 관계를 한눈에 보여줍니다.
 
-<img width="500" height="500" alt="{9F28DA0A-40B0-4F99-AFA2-BD9EA08C7A90}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%EA%B7%B8%EB%A6%BC1.png?raw=true" />
+<img width="500" height="500" alt="{9F28DA0A-40B0-4F99-AFA2-BD9EA08C7A90}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%EA%B7%B8%EB%A6%BC1.png?raw=true" /> <span></span>
 <img width="500" height="500" alt="{9F28DA0A-40B0-4F99-AFA2-BD9EA08C7A90}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%EA%B7%B8%EB%A6%BC2.png?raw=true" />
 
 * 이 **유스케이스 다이어그램**은 분리배출 게시판 및 관리자페이지에서 일반 사용자, 관리자별 권한을 나타냅니다.
