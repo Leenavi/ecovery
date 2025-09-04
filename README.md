@@ -1,4 +1,4 @@
-# 🌍 ECOVERY – AI 사물인식 기반 대형폐기물 분리배출 & 재활용 플랫폼
+<img width="331" height="151" alt="image" src="https://github.com/user-attachments/assets/fa21017d-7381-4217-8e1c-b67d8e02dd69" /><img width="331" height="151" alt="image" src="https://github.com/user-attachments/assets/6e45db3f-82e0-41e6-b5f0-c0b2c673e925" /># 🌍 ECOVERY – AI 사물인식 기반 대형폐기물 분리배출 & 재활용 플랫폼
 ---
 
 (25.07.07 ~ 25.08.08 - 약 5주)  
@@ -174,8 +174,7 @@ AI 기반 대형폐기물 분류를 비롯해 분리배출 신고, 무료나눔,
 
 --- 
 <h3><분리배출 메인페이지></h3>
-<img width="1367" height="672" alt="{3673829D-A150-4D6A-A69D-CB9DD102EB7F}" src="https://raw.githubusercontent.com/" />
-<img width="1227" height="893" alt="{6C3E4669-FB6F-40FB-9B22-4054EBD33E91}" src="https://github.com/user-attachments/assets/bebc16b8-b06b-4d8b-a1cf-3c8df6ffec12" />
+<img width="1227" height="893" alt="{6C3E4669-FB6F-40FB-9B22-4054EBD33E91}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%EA%B7%B8%EB%A6%BC3.png?raw=true" />
 
 🔎 사용하지 않는 물건을 등록하고, 이웃과 나눔을 실천할 수 있는 **무료나눔 커뮤니티 화면**입니다.
 * **검색 및 필터 기능**을 통해 원하는 지역이나 물품을 빠르게 찾을 수 있습니다. 
@@ -184,7 +183,7 @@ AI 기반 대형폐기물 분류를 비롯해 분리배출 신고, 무료나눔,
 
 ---
 <h3><분리배출 AI 예측 결과 및 사용자 2차 선택창></h3>
-<img width="1196" height="661" alt="{B0B46550-D64E-49E3-873F-63E061705051}" src="https://github.com/user-attachments/assets/0a0616e2-752a-4052-b11b-5ee4a4cb51c3" />
+<img width="600" height="600" alt="{B0B46550-D64E-49E3-873F-63E061705051}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%EA%B7%B8%EB%A6%BC4.png?raw=true" />
 
 🔎 사용자가 원하는 물품을 **키워드와 조건**으로 빠르게 찾을 수 있는 검색 화면입니다.
 * **검색 기준(제목/내용/지역/전체)** 을 선택해 원하는 방식으로 조회할 수 있습니다.
@@ -193,7 +192,8 @@ AI 기반 대형폐기물 분류를 비롯해 분리배출 신고, 무료나눔,
 
 ---
 <h3><최종 선택 기반 결과 안내 페이지></h3>
-<img width="1093" height="987" alt="{38E29525-8320-4E08-8267-2CEBD64FB62E}" src="https://github.com/user-attachments/assets/e8f29148-bb1c-41d7-ab86-f94898bef3f8" />
+<img width="600" height="600" alt="{38E29525-8320-4E08-8267-2CEBD64FB62E}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%EA%B7%B8%EB%A6%BC5.png?raw=true" /> <span></span>
+<img width="500" height="300" alt="{38E29525-8320-4E08-8267-2CEBD64FB62E}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%EA%B7%B8%EB%A6%BC6.png?raw=true" />
 
 🔎 로그인하지 않은 사용자도 접근 가능한 **상세 보기 화면**입니다.
 * 물품의 **대표 이미지 / 카테고리 / 제목 / 작성자 / 등록일 / 상태 / 나눔 지역**을 확인할 수 있습니다.
