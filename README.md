@@ -57,7 +57,7 @@ AI 기반 대형폐기물 분류를 비롯해 분리배출 신고, 무료나눔,
 # 2. 참여자 
 
 <h3>✨ 이지혜 (본인)</h3>
-<strong>본 프로젝트에서 저는 분리배출 게시판의 기획·개발을 담당했습니다.</strong><br>
+<strong>본 프로젝트에서 저는 분리배출 게시판 및 관리자페이지의 기획·개발을 담당했습니다.</strong><br>
 역할: 팀장 / 프로젝트 전반 관리 / 백엔드 개발     
 담당 기능: AI 데이터 라벨링, AI 모델링, FastAPI - Spring 연동, 분리배출 게시판, 관리자 페이지 기능 구현 
 <br>
@@ -176,68 +176,70 @@ AI 기반 대형폐기물 분류를 비롯해 분리배출 신고, 무료나눔,
 <h3><분리배출 메인페이지></h3>
 <img width="1000" height="893" alt="{6C3E4669-FB6F-40FB-9B22-4054EBD33E91}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%EA%B7%B8%EB%A6%BC3.png?raw=true" />
 
-🔎 사용하지 않는 물건을 등록하고, 이웃과 나눔을 실천할 수 있는 **무료나눔 커뮤니티 화면**입니다.
-* **검색 및 필터 기능**을 통해 원하는 지역이나 물품을 빠르게 찾을 수 있습니다. 
-* 나눔 물품은 **카드형 UI**로 제공되며, **대표 이미지 / 제목 / 상태 / 등록일 / 조회수** 정보를 직관적으로 확인할 수 있습니다.
-* 페이징 처리를 통해 **여러 개의 나눔 게시글을 효율적으로 탐색**할 수 있습니다.
+🔎 분리배출 게시판의 메인 화면입니다.
+* 누구나 대형폐기물 이미지와 폐기할 지역에 대한 정보를 입력할 수 있습니다.
 
 ---
 <h3><분리배출 AI 예측 결과 및 사용자 2차 선택창></h3>
 <img width="500" height="500" alt="{B0B46550-D64E-49E3-873F-63E061705051}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%EA%B7%B8%EB%A6%BC4.png?raw=true" />
 
-🔎 사용자가 원하는 물품을 **키워드와 조건**으로 빠르게 찾을 수 있는 검색 화면입니다.
+🔎 AI 예측 결과에 따른 2차 분류 선택창입니다.
 * **검색 기준(제목/내용/지역/전체)** 을 선택해 원하는 방식으로 조회할 수 있습니다.
-* 입력한 키워드에 해당하는 나눔 물품만 **필터링**되어 보여집니다.
-* 검색 결과는 **카드형 UI**로 표시되어, 물품의 **상태 / 위치 / 조회수 / 등록일**을 직관적으로 확인할 수 있습니다.
+* 사용자가 입력한 지역 정보와 AI 예측에 맞춰 카테고라이징된 옵션을 보여줍니다.
 
 ---
 <h3><최종 선택 기반 결과 안내 페이지></h3>
 <img width="500" height="500" alt="{38E29525-8320-4E08-8267-2CEBD64FB62E}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%EA%B7%B8%EB%A6%BC5.png?raw=true" /> <span></span>
 <img width="500" height="300" alt="{38E29525-8320-4E08-8267-2CEBD64FB62E}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%EA%B7%B8%EB%A6%BC6.png?raw=true" />
 
-🔎 로그인하지 않은 사용자도 접근 가능한 **상세 보기 화면**입니다.
-* 물품의 **대표 이미지 / 카테고리 / 제목 / 작성자 / 등록일 / 상태 / 나눔 지역**을 확인할 수 있습니다.
-* 하단에는 **상세 설명**이 제공되어, 물품의 상태를 자세히 알 수 있습니다.
-* **수정/삭제 버튼은 표시되지 않아**, 열람만 가능한 화면입니다.  
+🔎 이미지 분석 결과 및 폐기 수수료 안내페이지입니다.
+* 최종 선택된 분류 품목에 따라 예상 폐기 수수료를 확인할 수 있습니다.
+* 결과 확인 후 에코버리 사이트의 무료 나눔 게시판에 글을 등록하거나 폐기물 배출을 신고할 수 있는 서비스를 제공합니다.
+* AI의 예측이 잘못됐을 경우 사물 인식 오류 신고 버튼을 통해 관리자에게 AI 예측의 오류를 알릴 수 있습니다.
 
 ---
 <h3><관리자페이지 메인 대시보드></h3>
 <img width="1000" height="893" alt="{19213E0E-960C-4AA5-858D-1A16B7DAFC31}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%7B04A79198-5318-4455-BFDB-14B58EE8B411%7D.png?raw=true" />
   
-🔎 사용자가 나눔할 물품을 등록하는 화면입니다.
-* **제목, 카테고리, 상품 상태, 나눔 지역, 상세 설명** 등을 입력하여 게시글을 작성할 수 있습니다.
-* **이미지 업로드 기능**을 제공하며, 업로드한 파일은 **미리보기**로 확인할 수 있습니다.
-* 미리보기 이미지는 등록 전 상태를 검토할 수 있도록 하여, **사용자 편의성과 정확성**을 높였습다.
-* 모든 입력이 완료되면 **등록 버튼**을 통해 커뮤니티에 게시글을 공유할 수 있습니다.
+🔎 관리자페이지의 메인화면입니다.
+* 관리자로 로그인시 진입할 수 있는 페이지입니다.
+* 관리자는 한눈에 회원, 분리배출 사용량 등을 확인할 수 있습니다.
+* 각 카드별 바로가기 버튼을 통해 각 기능별 관리 페이지로 이동할 수 있습니다.
 
 ---
 <h3><관리자페이지 내 분리배출 내역 페이지></h3>
 <img width="600" height="400" alt="{54998963-EE68-4A66-B7EE-77B730FBCC76}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%7B3D0DC0AD-297E-4DD8-8357-37A327E496A0%7D.png?raw=true" /> <span></span>
 <img width="400" height="500" alt="{54998963-EE68-4A66-B7EE-77B730FBCC76}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%7BB2A8710C-0519-4914-B403-F4022FBEF735%7D.png?raw=true" />
 
-* 게시글 작성자 또는 관리자가 **수정 버튼**을 클릭하면, **“게시글을 수정하시겠습니까?” 모달창**이 표시됩니다.
-* 이를 통해 **실수 방지와 사용자 의도 확인**이 가능합니다.
+🔎 분리배출 및 오류 내역 페이지입니다. 
+* 관리자는 총 건수, 평균 ai 정확도 등을 한 눈에 확인할 수 있습니다.
+* 검색 및 필터링을 통해 필요한 데이터만 확인할 수 있습니다.
+* 각 내역별 상세보기 버튼을 누르면 해당 내역의 상세 정보를 확인할 수 있습니다.
 
 --- 
 <h3><관리자페이지 내 회원관리 페이지></h3>
 
 <img width="1154" height="843" alt="{5A4EA635-4D2A-4E20-BA19-8A8DD82C4CEA}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%7B1F93C17D-9449-4CBA-906B-78F06100F169%7D.png?raw=true" />
 
-* 상세페이지에서 삭제 버튼을 누르면, 삭제 여부를 한 번 더 확인할 수 있는 모달창이 나타나 실수로 인한 삭제를 방지합니다.
+🔎 회원관리 페이지입니다.
+* 관리자는 총 회원 수, 회원별 로그인 방식 등을 확인할 수 있습니다.
+* 검색 및 필터링을 통해 필요한 데이터만 확인할 수 있습니다.
+* 각 회원별 상세보기 버튼을 통해 회원별 권한 수정이 가능합니다.
 
 ---
 <h3><관리자페이지 내 회원 권한 수정 페이지></h3>
 <img width="700" height="600" alt="{A04AE862-8E9A-42EF-8E37-82D4DFF0C8B8}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%7BB47E9945-68AF-4948-BFC4-031E5A8B8671%7D.png?raw=true" /> <span></span>
 <img width="400" height="400" alt="{A04AE862-8E9A-42EF-8E37-82D4DFF0C8B8}" src="https://github.com/leeJiHye95/ecovery/blob/main/src/main/resources/static/gitImages/%7B1C32A187-31E2-4036-A544-43C632B9E42E%7D.png?raw=true" />
 
-* 상세페이지 하단에는 **댓글 등록 창**이 있어 사용자가 의견이나 질문을 남길 수 있습니다.
-* 등록된 댓글은 **최신순·등록순 정렬** 기능을 통해 원하는 순서로 확인할 수 있으며, **작성자에게만 수정 및 삭제 버튼이 표시**되어 본인이 작성한 댓글만 관리할 수 있습니다.
+🔎 회원 권한 수정 페이지입니다.
+* 관리자는 각 회원별 상세보기 버튼을 통해 회원별 권한 수정이 가능합니다.
+* 권한 변경시 기존 권한, 새 권한 정보를 모달창으로 보여주어 한 번 더 확인할 수 있도록 합니다.
 
 </details>
 
 ---
 
-# 8. Trouble Shooting – 수정 페이지 데이터/이미지 처리 오류
+# 8. Trouble Shooting – 관리자페이지 데이터 페이징 및 필터링 처리 오류
 
 📌 문제 상황
 복합 조건(기간+지역+품목) 조회 시 출력·페이징 동작 불안정, 필터 갱신 시 목록이 아예 출력되지 않는 문제가 발생했습니다.
